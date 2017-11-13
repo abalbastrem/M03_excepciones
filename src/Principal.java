@@ -9,7 +9,7 @@ public class Principal {
 	
 	public static double divide(double a, double b) {
 		
-		if ( b == 0 ) {
+		if ( b == 00 ) {
 			throw new RuntimeException("b no puede ser 0"); // Las RuntimeException no fuerzan a ser tratadas
 		}
 		
